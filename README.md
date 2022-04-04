@@ -1,3 +1,3 @@
-# OSF_Project
+# OSF_Project by Radu Sabau
 
-# by Radu Sabau
+
