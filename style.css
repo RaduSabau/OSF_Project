@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+ @media screen and (min-width: 1280px) {
+ 
+}
+.nav-link{
+    text-transform: uppercase;
+    color:black;
+      
+}
+.nav-link-1{
+    text-decoration: none;
+    font-size: smaller;
+}
+.social-media-wrapper{
+    top: 20px;
+    right: 20px;
+
+}
+
+    ul li:hover > ul,
+  ul li ul:hover {
+      
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    border-top: 3px green solid;
+  }
+
