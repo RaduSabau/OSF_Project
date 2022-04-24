@@ -1,3 +1,4 @@
-$(window).on("click", function () {
-  console.log("asdasd");
+$(".cookie").hide().slideUp(10000);
+$(".accept").click(function () {
+  $(".cookie").hide();
 });
