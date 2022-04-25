@@ -17,6 +17,7 @@
         width: 80vw;
         height: 20vw;
         margin: 15px 50px 0px -330px;
+        
     }
 }
 .nav-link{
@@ -42,12 +43,6 @@ a .dropdown-item-sec{
     margin-bottom: 10px;
 }
 
-.social-media-wrapper{
-    top: 1.5em;
-    right: 0;
-
-}
-
     ul li:hover > ul,
   ul li ul:hover {
       
@@ -56,6 +51,35 @@ a .dropdown-item-sec{
     display: block;
     border-top: 3px green solid;
   }
+/* Carousel elements */
+  #carouselExampleDarks{
+   border-radius: 50%;
+   color: white;
+  }
+  .carousel-caption h3, 
+  .carousel p, 
+  .carousel a{
+    color:white;
+    text-decoration: none;
+    }
+.carousel-caption button{
+        border: 2px white solid;
+        border-radius: 25px;
+        color: white;
+        background-color: inherit;
+        opacity: 0.8;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+}
+.carousel-caption a:hover{
+    color:white;
+}
 
   /*Cookie policy dialog box*/
   .cookie{

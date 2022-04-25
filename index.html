@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
       <title>Home</title>
   </head>
   <body>
-      <header>
-          <div class="nbar d-flex flex-row align-items-center justify-content-around sticky-top">
+      <header class="bg-white sticky-top">
+          <div class="nbar d-flex flex-row align-items-center justify-content-around">
             <div class="logo">
              <a href="#home"><img src="images/OSFLogo.PNG" alt="OSF Logo"></a> 
             </div>
@@ -85,7 +86,7 @@
                             </li>
                           <div class="col-lg-2 flex-column position-absolute translate-middle" style="margin-left:22vw; margin-top: -8vw;">
                             <li> 
-                              <img src="images/excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing.jpg" alt="Fashion Image" style="width: 20vw; height: 15vw;">
+                              <img class="img-fluid" src="images/excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing.jpg" alt="Fashion Image" style="width: 20vw; height: 15vw;">
                             </li>   
                           </div>
                           </div>
@@ -155,10 +156,59 @@
             </div>
           </div>
         </header> 
-        
-        
+        <main>
+          <div class="container">
+            <!-- Carousel -->
+            <div class="carou row">
+              <div class="col-lg-8">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active position-relative">
+                      <img src="images/robot-handshake-human-background-futuristic-digital-age.jpg" class="d-block w-100" alt="Robot handshake with human">
+                      <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
+                        <h3>Technology</h3>
+                        <p class="mt-5 ps-5">The impact of Technology on our Planet.</p>
+                        <button class="button text-uppercase mt-5"><a href="">View more</a></button>
+                      </div>
+                    </div>
+                    <div class="carousel-item" >
+                      <img src="images/excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Second slide label</h3>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/futuristic-smart-city-with-5g-global-network-technology.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Third slide label</h3>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/white-t-shirts-with-copy-space-gray-background.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Third slide label</h3>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg">
+                
+              </div>
+            </div>
+           
+          </div>
+        </main>
         <!-- Footer -->      
-        <footer class="py-3 border-top fixed-bottom align-items-center ps-4 pe-4">
+        <footer class="py-3 border-top align-items-center ps-2 pe-2">
           <div class="row">
             <div class="col-2 flex-column" style="font-size: smaller;">
               <p>© Copyright 2022. All rights reserved.</p>
@@ -171,54 +221,55 @@
               <span itemprop="telephone"><a class="text-decoration-none text-reset" href="tel:+18885484344">+1 (888) 548-4344</a></span>
             </div>
             <!-- Footer Meniu -->
-            <div class="col-8 flex-column">
+            <div class="col-7 flex-column">
               <div class="row">
-              <div class="col-3">
-                <h6 class="fw-bold text-uppercase">Categories</h6>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Alcohol</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Art</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Books</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Drink</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Electronics</a></li>
-                </ul>
-                
-              </div>
-              <div class="col-3">
-              <ul class="nav flex-column">
-                <br>
-                <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Jewelry</a></li>
-                <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Kids & Baby</a></li>
-                <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Men's Fashion</a></li>
-                <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Mobile</a></li>
-                <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Motorcycles</a></li>
-                <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Movies</a></li>
-                <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Music</a></li>
-              </ul>
-              </div>
-              <div class="col-3">
-                <ul class="nav flex-column">
-                  <br>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Sport</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Toys</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Travel</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Woman's Fashion</a></li>
-                </ul>
-              </div>
-              <div class="col-3">
-                <h6 class="fw-bold text-uppercase">About</h6>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2 "><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Alcohol</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Art</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Books</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Drink</a></li>
-                  <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Electronics</a></li>
-                </ul>
-              </div>
-            </div>
+                <div class="col-3">
+                  <h6 class="fw-bold text-uppercase">Categories</h6>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Alcohol</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Art</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Books</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Drink</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Electronics</a></li>
+                  </ul>
+                  
+                </div>
+                <div class="col-3">
+                  <ul class="nav flex-column">
+                    <br>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Jewelry</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Kids & Baby</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Men's Fashion</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Mobile</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Motorcycles</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Movies</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Music</a></li>
+                  </ul>
+                </div>
+                <div class="col-3">
+                  <ul class="nav flex-column">
+                    <br>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Sport</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Toys</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Travel</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted">Woman's Fashion</a></li>
+                  </ul>
+                </div>
+                <div class="col-3">
+                  <h6 class="fw-bold text-uppercase">About</h6>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2 "><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Alcohol</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Art</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Books</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Drink</a></li>
+                    <li class="nav-item mb-2"><a href="404error.html" class="nav-link-1 p-0 text-muted text-decoration-none">Electronics</a></li>
+                  </ul>
+                </div>
+             </div>
+               </div>
             <!-- Social Media links -->
-            <div class="col-2 flex-column position-absolute social-media-wrapper">
+            <div class="col-auto">
               <div class="row">
                 <ul class="nav d-flex flex-row">
                 <li class="nav-item ps-4"><a href="https://www.facebook.com/OSFDigital/"><i class="fa fa-facebook-f text-muted"style="font-size:20px"></i></a>

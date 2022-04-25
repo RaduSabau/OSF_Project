@@ -1,4 +1,5 @@
-$(".cookie").hide().slideUp(10000);
-$(".accept").click(function () {
-  $(".cookie").hide();
-});
+$(".cookie").hide();
+// $(".btn accept").click(function () {
+//   $(".cookie").hide();
+//   slideUp(1000);
+// });
